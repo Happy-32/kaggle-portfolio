@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Kaggle credentials
+kaggle.json
+access_token
+.kaggle/
+
+# Data and model artifacts
+data/
+datasets/
+*.csv
+*.parquet
+*.sqlite
+*.db
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local environment files
+.DS_Store
